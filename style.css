@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #222b47;
+    margin: 0; padding: 0;
+}
+
+.geral {
+    /* centraliza a pagina menos o header */
+     min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    padding: 6.25px;
+    background-color: #1c223d;
+    margin: 0;
+    /* ai pra baixo é os coisinha que faz com que o THIT fique alinhado certinho */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    color: rgb(0, 174, 255);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18.75px;
+    font-weight: normal;
+}
+
+ul.listacentro {
+    /* faz os coisinha da lista ficar no meio */
+    display: inline-block;
+    text-align: left;
+}
+
+a {
+    font-family: Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18.75px;
+    border: 1;
+    padding: 18.75px;
+    border-radius: 12.5px;
+    background-color: #151931;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    color: rgb(248, 224, 8);
+}
+
+.cabecinha {
+    width: 75px;
+    margin-right: 12.5px;
+}
+
+.iconzinho {
+    width: 25px;
+    margin-right: 2.5px;
+    margin-bottom: -6.25px;
+}
+
+.dogs{
+      width: 75px;
+}
+
+.cachorrin{
+    display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.cartaozin {
+flex: 1 1 200px;
+padding: 10px;
+background-color: #4162f5;
+border-radius: 5px;
+text-align: center;
+width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
